@@ -14,6 +14,8 @@ import { ShoppingListComponent } from './components/shopping-list/shopping-list.
 import { ShoppingEditComponent } from './components/shopping-edit/shopping-edit.component';
 import { DropdownDirective } from './directives/dropdown.directive';
 import { ShoppingListService } from './services/shopping-list.service';
+import { RecipeStartComponent } from './components/recipe-start/recipe-start.component';
+import { RecipeEditComponent } from './components/recipe-edit/recipe-edit.component';
 
 
 
@@ -30,6 +32,8 @@ import { ShoppingListService } from './services/shopping-list.service';
     ShoppingListComponent,
     ShoppingEditComponent,
     DropdownDirective,
+    RecipeStartComponent,
+    RecipeEditComponent,
 
   ],
   imports: [
